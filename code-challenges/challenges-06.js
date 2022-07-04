@@ -69,13 +69,13 @@ return arr
 let temp = new Array(arr.length);
 
 for(let i = 0 , j = arr.length-1 ; i < arr.length ; i++ , j--){
-
+temp[j] = arr[i];
 
 }
+return temp;
 
 
-
-//Second Soluation without create a temp Array
+//third Soluation without create a temp Array
    
 let j = arr.length - 1 ;
 for(let i = 0 ; i < j ; i++ , j--){
