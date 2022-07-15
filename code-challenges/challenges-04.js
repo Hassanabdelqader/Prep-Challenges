@@ -10,7 +10,7 @@
 // Output: [1,3,6,10]
 // Note that Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 const runningSumOfArray = (arr) => {
-  let test = 0;
+  let test = 10;
   let runningSumArray;
   runningSumArray  = [];
   // write your code here
