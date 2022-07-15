@@ -101,20 +101,16 @@ return arr;
 // Output: [1, 2, 3, 4, 1]
 
 const targetArrayInGivenOrder = (numsArr, indexArr) => {
-  
-  let targetArr = new Array(numsArr.length);
+
+  let targetArr;
   // write your code here
-  for (let index = 0; index < numsArr.length; index++) {
-     if(targetArr[indexArr[index]] == undefined){
-    targetArr[indexArr[index]] = numsArr[index]; 
-         //sd7
-     }
-     else{
-         for(let j = index ; j > indexArr[index]; j--){
-          targetArr[j] =  targetArr[j-1];
-         }
-        targetArr[indexArr[index]] = numsArr[index];
-     }
+  targetArr = new Array(numsArr.length);
+
+  for (let index = 0; index < indexArr.length; index++) {
+
+    targetArr[index] = numsArr[indexArr[index]];
+
+
   }
 
   return targetArr;
