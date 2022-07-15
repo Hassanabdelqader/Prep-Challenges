@@ -104,6 +104,8 @@ const targetArrayInGivenOrder = (numsArr, indexArr) => {
   
   let targetArr;
   let c = 0; 
+
+  let test = 4;
   // write your code here
   targetArr = new Array(numsArr.length);
 
