@@ -101,8 +101,13 @@ return arr;
 // Output: [1, 2, 3, 4, 1]
 
 const targetArrayInGivenOrder = (numsArr, indexArr) => {
+
   
   let targetArr;
+
+
+     let targetArr = new Array(numsArr.length);
+
   // write your code here
   targetArr = new Array(numsArr.length);
 
