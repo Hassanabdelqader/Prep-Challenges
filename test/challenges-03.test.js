@@ -120,10 +120,11 @@ describe("Challenge03", () => {
   test("targetArrayInGivenOrder", () => {
     expect(
       targetArrayInGivenOrder([0, 1, 2, 3, 4], [0, 4, 1, 2, 3])
-    ).toStrictEqual([0, 4, 1, 2, 3]);
+    ).toStrictEqual([ 0, 4, 1, 2, 3]);
     expect(
       targetArrayInGivenOrder([1, 2, 3, 4, 0], [0, 1, 2, 3, 0])
-    ).toStrictEqual([1, 2, 3, 4, 1]);
+    ).toStrictEqual([1, 2, 3, 4, 1 ]);
+
   });
 });
 
