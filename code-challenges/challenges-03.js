@@ -102,28 +102,13 @@ return arr;
 
 const targetArrayInGivenOrder = (numsArr, indexArr) => {
   
-  let targetArr;
-  let c = 0; 
-  // write your code here
-  targetArr = new Array(numsArr.length);
-
-  for (let index = 0; index < indexArr.length; index++) {
-
-    targetArr[index] = numsArr[indexArr[index]];
-
-  }
-
-  return targetArr;
-
-  /*****************************
-
-  for Leet Code Example
+ 
       let targetArr = new Array(numsArr.length);
-  // write your code here
+ 
   for (let index = 0; index < numsArr.length; index++) {
      if(targetArr[indexArr[index]] == undefined){
     targetArr[indexArr[index]] = numsArr[index]; 
-         //sd7
+        
      }
      else{
          for(let j = index ; j > indexArr[index]; j--){
@@ -134,9 +119,7 @@ const targetArrayInGivenOrder = (numsArr, indexArr) => {
   }
 
   return targetArr;
-  
-  */
-   
+
 };
 // -------------------------------------------------------------------------------------------------------
 
